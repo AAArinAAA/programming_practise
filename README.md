@@ -11,5 +11,7 @@ playwright install
 
 ## Run Tests
 ```
-pytest
+pytest tests\test_empty_credentials.py
+pytest tests\test_incorrect_credentials.py
+pytest tests\test_sorting.py
 ```
